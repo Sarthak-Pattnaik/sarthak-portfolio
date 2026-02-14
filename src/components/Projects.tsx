@@ -30,8 +30,8 @@ function Projects() {
       title: "Portfolio Website",
       desc: "Personal Portfolio Website.",
       image: proj3,
-      liveLink: "#",
-      codeLink: "#",
+      liveLink: "https://sarthak-pattnaik-portfolio.vercel.app/",
+      codeLink: "https://github.com/Sarthak-Pattnaik/sarthak-portfolio",
     }
   ];
 

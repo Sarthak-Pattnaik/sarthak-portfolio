@@ -36,6 +36,7 @@ This project showcases my skills, projects, and includes a functional contact fo
 
 ## 📂 Project Structure
 
+```
 src/
 ├── assets/
 ├── components/
@@ -50,6 +51,7 @@ src/
 ├── App.tsx
 ├── main.tsx
 └── index.css
+```
 
 
 ---
@@ -58,24 +60,28 @@ src/
 
 Clone the repository:
 
+```
 git clone https://github.com/YOUR_USERNAME/sarthak-portfolio.git
 cd sarthak-portfolio
-
+```
 
 Install dependencies:
 
+```
 npm install
-
+```
 
 Start development server:
 
+```
 npm run dev
-
+```
 
 Build for production:
 
+```
 npm run build
-
+```
 
 ---
 
@@ -83,10 +89,11 @@ npm run build
 
 Create a `.env` file in the root directory and add:
 
+```
 VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
-
+```
 
 ⚠️ Do NOT commit your `.env` file to GitHub.
 

@@ -39,14 +39,14 @@ This project showcases my skills, projects, and includes a functional contact fo
 src/
 ├── assets/
 ├── components/
-│ ├── Navbar.tsx
-│ ├── Hero.tsx
-│ ├── About.tsx
-│ ├── Projects.tsx
-│ ├── Skills.tsx
-│ ├── Contact.tsx
-│ ├── Footer.tsx
-│ └── ScrollProgress.tsx
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
+│   └── ScrollProgress.tsx
 ├── App.tsx
 ├── main.tsx
 └── index.css
@@ -59,24 +59,20 @@ src/
 Clone the repository:
 
 git clone https://github.com/YOUR_USERNAME/sarthak-portfolio.git
-
 cd sarthak-portfolio
 
 
 Install dependencies:
-
 
 npm install
 
 
 Start development server:
 
-
 npm run dev
 
 
 Build for production:
-
 
 npm run build
 

@@ -20,18 +20,18 @@ function Projects() {
       codeLink: "https://github.com/AsherTime/Yukumi",
     },
     {
-      title: "Oceanographic Data Platform",
-      desc: "Platform for analyzing oceanographic data.",
+      title: "Olympics Analytics Report",
+      desc: "Power BI report analyzing 120 years of Olympic data.",
       image: proj2,
-      liveLink: "https://oceanographic-data-platform.vercel.app/",
-      codeLink: "https://github.com/Sarthak-Pattnaik/oceanographic-data-platform",
+      liveLink: "",
+      codeLink: "https://github.com/Sarthak-Pattnaik/Olympics-Analytics",
     },
     {
-      title: "Portfolio Website",
-      desc: "Personal Portfolio Website.",
+      title: "Heart Disease Risk Prediction",
+      desc: "Heart disease risk prediction using ML models.",
       image: proj3,
-      liveLink: "https://sarthak-pattnaik-portfolio.vercel.app/",
-      codeLink: "https://github.com/Sarthak-Pattnaik/sarthak-portfolio",
+      liveLink: "https://heart-disease-prediction-pied.vercel.app/",
+      codeLink: "https://github.com/Sarthak-Pattnaik/Heart-Disease-Prediction",
     }
   ];
 
@@ -43,20 +43,21 @@ function Projects() {
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
           {projects.map((proj, i) => (
             <div key={i} className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-4 hover:scale-105 transition duration-300">
-              <img src={proj.image} className="rounded-md mb-4 h-40" />
+              <img src={proj.image} className="rounded-md mb-4 h-40 mx-auto" />
               <h3 className="font-semibold">{proj.title}</h3>
               <p className="text-sm text-gray-500 dark:text-gray-400 my-2">{proj.desc}</p>
 
               <div className="flex gap-2">
-                <a
-                  href={proj.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-accent text-white px-3 py-3 rounded-lg hover:scale-105 hover:shadow-lg transition duration-300"
-                >
-                  Live Demo
-                </a>
-
+                {proj.liveLink && (
+                  <a
+                    href={proj.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-accent text-white px-3 py-3 rounded-lg hover:scale-105 hover:shadow-lg transition duration-300"
+                  >
+                    Live Demo
+                  </a>)
+                }
                 <a
                   href={proj.codeLink}
                   target="_blank"

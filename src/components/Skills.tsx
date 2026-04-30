@@ -1,5 +1,7 @@
 import { FaJava, FaPython, FaReact, FaFigma } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiC } from "react-icons/si";
+import PowerBIIcon from "../assets/PowerBIIcon.svg";
+
 
 function Skills() {
   return (
@@ -7,9 +9,10 @@ function Skills() {
       <h2 className="text-3xl font-bold mb-10">Skills</h2>
 
       <div className="flex justify-center gap-12 flex-wrap">
+
         <div className="flex flex-col items-center hover:scale-110 transition">
-          <FaJava size={50} className="text-red-600" />
-          <p className="mt-2">Java</p>
+          <FaReact size={50} className="text-cyan-400" />
+          <p className="mt-2">React</p>
         </div>
 
         <div className="flex flex-col items-center hover:scale-110 transition">
@@ -23,8 +26,18 @@ function Skills() {
         </div>
 
         <div className="flex flex-col items-center hover:scale-110 transition">
-          <FaReact size={50} className="text-cyan-400" />
-          <p className="mt-2">React</p>
+          <FaJava size={50} className="text-red-600" />
+          <p className="mt-2">Java</p>
+        </div>
+
+        <div className="flex flex-col items-center hover:scale-110 transition">
+          <SiC size={50} className="text-blue-500" />
+          <p className="mt-2">C</p>
+        </div>
+
+        <div className="flex flex-col items-center hover:scale-110 transition">
+          <img src={PowerBIIcon} alt="Power BI" width={52} />
+          <p className="mt-2">Power BI</p>
         </div>
 
         <div className="flex flex-col items-center hover:scale-110 transition">

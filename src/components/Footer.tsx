@@ -1,10 +1,18 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 
 function Footer() {
   return (
     <footer className="py-6 text-center border-t border-gray-200 dark:border-gray-700">
       <div className="flex justify-center gap-6 mb-4">
-        
+
+        <a
+          href="mailto:psarthak@protonmail.com"
+          className="hover:text-accent transition hover:scale-110"
+          aria-label="Email"
+        >
+          <Mail size={24} />
+        </a>
+
         <a
           href="https://github.com/Sarthak-Pattnaik"
           target="_blank"

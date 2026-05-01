@@ -23,15 +23,25 @@ function Hero() {
         </motion.h1>
 
         <p className="mt-4 text-lg text-gray-200">
-          CSE Student
+          Full Stack Developer building scalable web apps & data-driven products.<br></br>
+          Experienced in React, Supabase, and Power BI.
         </p>
-
-        <a
-          href="#projects"
-          className="mt-8 inline-block bg-accent text-white px-6 py-3 rounded-lg hover:scale-105 transition"
-        >
-          View My Work
-        </a>
+        <div className="flex justify-center gap-2 mt-8">
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-accent text-white px-6 py-3 rounded-lg hover:scale-105 transition"
+          >
+            View Resume
+          </a>
+          <a
+            href="#projects"
+            className="inline-block bg-accent text-white px-6 py-3 rounded-lg hover:scale-105 transition"
+          >
+            View Projects
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -66,9 +66,11 @@ function Contact() {
     >
       <div className="max-w-xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">
-          Contact Me
+          Let's work together!
         </h2>
-
+        <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+          Have an opportunity, project, or idea to discuss? Feel free to send me a message.
+        </p>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             type="text"

@@ -14,9 +14,9 @@ function About() {
         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
           Hi, I'm Sarthak!
 
-          I'm a Computer Science and Engineering undergraduate at KIIT with a strong interest in building scalable software and extracting insights from data.
+I'm a Computer Science and Engineering undergraduate at KIIT with a passion for building scalable software and solving challenging problems.
 
-          I enjoy working across the stack—designing responsive user interfaces with React and Next.js, building backend systems using Supabase, and working with PostgreSQL for efficient data management. Alongside development, I also work on data-driven projects using Python and Power BI to uncover meaningful patterns and trends.
+I enjoy working across the full stack—developing responsive and intuitive user interfaces with React while building robust backend applications using Node.js, Express, and MongoDB. Alongside software development, I enjoy solving complex data structure and algorithm problems in Java and continuously expanding my knowledge by building real-world projects.
         </p>
       </div>
     </section>

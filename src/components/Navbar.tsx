@@ -12,7 +12,7 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <h1 className="font-bold text-xl">SP</h1>
 
@@ -20,6 +20,8 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
           <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
@@ -35,6 +37,8 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </div>
       )}

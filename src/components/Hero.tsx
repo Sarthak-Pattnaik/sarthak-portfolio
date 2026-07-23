@@ -23,12 +23,12 @@ function Hero() {
         </motion.h1>
 
         <p className="mt-4 text-lg text-gray-200">
-          Full Stack Developer building scalable web apps & data-driven products.<br></br>
-          Experienced in React, Supabase, and Power BI.
+          Full Stack Developer building scalable web apps & user-centric products.<br></br>
+          Experienced in Java, React and MongoDB.
         </p>
         <div className="flex justify-center gap-2 mt-8">
           <a
-            href="/Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-accent text-white px-6 py-3 rounded-lg hover:scale-105 transition"
